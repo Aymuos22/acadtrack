@@ -1,0 +1,36 @@
+name: acadtrack
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_slidable: ^0.6.0
+  cupertino_icons: ^1.0.2
+  hive: 
+  hive_flutter: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: 
+  build_runner: 
+
+flutter:
+  assets:
+    - assets/top.jpg
+    - assets/noose.jpg
+    - assets/ok.jpg
+
+  uses-material-design: true
+
+
+
+  
